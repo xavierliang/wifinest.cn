@@ -126,7 +126,7 @@ body {
   .impress-enabled .step.active {
     opacity: 1; }
   .impress-enabled .step.shelter {
-    opacity: 0; }
+    opacity: 0.3; }
     .impress-enabled .step.shelter.active {
       opacity: 1; }
 .impress-enabled.impress-on-overview .step {
