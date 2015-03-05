@@ -1,0 +1,42 @@
+-# coding: utf-8
+!!! 5
+%html
+  %head
+    %meta{charset:"utf-8"}/
+    %meta{name:"viewport",content:"width=1024"}/
+    %meta{name:"apple-mobile-web-app-capable", content:"yes"}/
+    %title 优热点科技 | 用互联网科技助力商家生意
+    %meta{name:"description", content:"优热点是一家致力于帮助商家利用互联网科技的企业"}/
+    %meta{name:"author",content:"Xavier"}/
+    %link{href:"css/screen.css", rel:"stylesheet"}/
+    %link{rel:"shortcut icon", href:"favicon.png"}/
+    %link{rel:"apple-touch-icon",href:"favicon.png"}/
+  %body.impress-not-supported
+    .fallback-message
+      %p 您的浏览器太老了！
+      %p 为了您的体验，请使用最新的 Chrome 浏览器
+    #impress
+      #overview.step(data-x="0" data-y="-300" data-scale="7")
+      .step.slide(data-x="-1300" data-y="-1500")
+        %q 老顾客的营销成本仅为新顾客的1/5
+      .step.slide(data-x="-300" data-y="-1500")
+        %q <strong class="strickout">会员卡？</strong> 成本太高
+        %q <strong class="strickout">刷脸？</strong> 记不住
+      #title.step(data-x="0" data-y="0" data-scale="4")
+        %h1 优热点
+        %span.footnote 拉近您与顾客的距离
+      .step.shelter(data-x="0" data-y="0" data-z="-2000")
+        %img{src:"res/06.png"}
+      .step.shelter(data-x="0" data-y="-500" data-z="-5000")
+        %img{src:"res/09.png"}
+      .step.shelter(data-x="800" data-y="0" data-z="-5000")
+        %img{src:"res/10.png"}
+      .step.shelter(data-x="0" data-y="500" data-z="-5000")
+        %img{src:"res/11.png"}
+      .step.shelter(data-x="-800" data-y="0" data-z="-5000")
+        %img{src:"res/12.png"}
+      .step.shelter(data-x="0" data-y="0" data-z="-2000")
+        %img{src:"res/06.png"}
+    %script{src:"js/impress.js"}
+    %script impress().init();
+

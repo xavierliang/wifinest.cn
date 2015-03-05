@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.625; }
+
+h1 {
+  font-size: 35px;
+  font-size: 2.1875rem; }
+
+h2 {
+  font-size: 31px;
+  font-size: 1.9375rem; }
+
+h3 {
+  font-size: 27px;
+  font-size: 1.6875rem; }
+
+h4 {
+  font-size: 24px;
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 21px;
+  font-size: 1.3125rem; }
+
+h6 {
+  font-size: 18px;
+  font-size: 1.125rem; }
+
+p {
+  font-size: 16px;
+  font-size: 1rem; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; }
+
+body {
+  min-height: 740px;
+  background: #d7d7d7;
+  background: -webkit-radial-gradient(#f0f0f0, #bebebe);
+  background: -moz-radial-gradient(#f0f0f0, #bebebe);
+  background: radial-gradient(#f0f0f0, #bebebe); }
+
+.fallback-message {
+  line-height: 1.3;
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+  border: 1px solid #E4C652;
+  border-radius: 10px;
+  background: #EEDC94; }
+  .fallback-message p {
+    margin-bottom: 10px; }
+
+.impress-supported .fallback-message {
+  display: none; }
+
+.strickout {
+  text-decoration: line-through; }
+
+.step {
+  position: relative;
+  width: 900px;
+  padding: 40px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 48px;
+  line-height: 1.5; }
+
+.impress-enabled .step {
+  margin: 0;
+  opacity: 0.3;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s; }
+  .impress-enabled .step.active {
+    opacity: 1; }
+  .impress-enabled .step.shelter {
+    opacity: 0; }
+    .impress-enabled .step.shelter.active {
+      opacity: 1; }
+.impress-enabled.impress-on-overview .step {
+  opacity: 1; }
+  .impress-enabled.impress-on-overview .step.shelter {
+    opacity: 0; }
+
+.slide {
+  display: block;
+  width: 900px;
+  height: 700px;
+  padding: 40px 60px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #666666;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 01px; }
+  .slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+    margin-top: 100px; }
+    .slide q strong {
+      white-space: nowrap; }
+
+#title {
+  padding: 0; }
+  #title h1 {
+    font-size: 190px; }
+  #title .footnote {
+    font-size: 64px; }
+
+/*# sourceMappingURL=screen.css.map */
